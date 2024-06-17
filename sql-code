@@ -1,0 +1,20 @@
+show databases
+show databases
+show tables from farmers_market
+use farmers_market
+show tables
+select * from product 
+select * from customer 
+select * from customer_purchases
+SELECT COUNT(product_id) AS total_count
+FROM customer_purchases;
+select * from customer
+SELECT DISTINCT product_name as prod
+FROM product;
+select * from customer_purchases;
+create database sql_training;
+use sql_training;
+NUMERIC FUNCTION
+select abs(-22);
+select mod(50,2) as remainder;
+select mod(50.3,2) as remainder
